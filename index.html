@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="jp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curry House</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <div class="container-fluid p-0">
+            <!-- Content here -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Curry House</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavber" aria-labelledby="offcanvasNavberLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavberLabel">Menu</h5>
+                    </div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav> 
+          </div>
+    </header>
+    
+    <main>
+    <section id="hero">
+        <div class="container-fluid p-0">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/slide_curry_01.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/slide_curry_02.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/slide_curry_03.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+    </section>
+
+    <section id="about">
+        <div class="container p-5 my-5 text-center">
+        <h2 class="fs-1">CURRY PARADISE</h2>
+        <p>こだわりのスパイスをブレンドしたオリジナルカレー</p>
+          </div>
+    </section>
+
+    <section id="items-1">
+        <div class="container-fluid p-5 text-bg-dark">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2 class="fs-1 py-3">Curry Paradise</h2>
+                <p>こだわりのスパイスをブレンドしたオリジナルカレー</p>
+            </div>
+        <div class="col-sm-4">
+            <img src="images/curry_menu_01.jpg" alt="" class="img-fluid">
+        </div>
+        </div>
+          </div>
+    </section>
+
+    <section id="items-2">
+        <div class="container-fluid p-5">
+        <div class="row">
+        <div class="col-sm-4">
+             <img src="images/curry_menu_02.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-sm-8">
+             <h2 class="fs-1 py-3">Curry Paradise 2</h2>
+            <p>こだわりのスパイスをブレンドしたオリジナルカレー</p>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="items-3">
+        <div class="container-fluid p-5 text-bg-dark">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2 class="fs-1 py-3">Curry Paradise 3</h2>
+                <p>こだわりのスパイスをブレンドしたオリジナルカレー</p>
+            </div>
+        <div class="col-sm-4">
+            <img src="images/curry_menu_03.jpg" alt="" class="img-fluid">
+        </div>
+        </div>
+          </div>
+    </section>
+
+    <section id="map">
+        <div class="container-fluid py-5 px-0 my-5 text-center">
+            <h2 class="fs-1 p-5"> GOOGLE MAP</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.474670382482!2d130.7032585756638!3d32.806185873651515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3540f40e023aca59%3A0x5e8b66c876cde430!2z54aK5pys5Z-O!5e0!3m2!1sja!2sjp!4v1717484791926!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section id="cta">
+        <div class="container">
+            <!-- Content here -->
+          </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <!-- Content here -->
+          </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
